@@ -53,7 +53,7 @@ public  class Game{
                     break;
                 case 5 : 
                     if(player.getInventory().getWater()) {
-                        System.out.println("You already cleaned the River.");
+                        System.out.println("Sen zaten nehirdeki ödülü kazandın !!");
                         location = new SafeHouse(player);
                     }else {
                         location = new River(player);
